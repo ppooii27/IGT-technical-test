@@ -1,0 +1,34 @@
+.box-container {
+	width: 100%;
+	background-color: midnightblue;
+	height: 600px;
+	padding: 0 24px;
+}
+
+.slideshow-box {
+	width: 70%;
+	float: left;
+	margin-right: 20px;
+}
+
+.info-box {
+	padding-top: 197px;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 350px;
+	padding: 0px 10px;
+}
+
+.card-content {
+	height: 150px;
+}
+
+@media (max-width: 900px) {
+	.slideshow-box {
+		width: 100%;
+	}
+}
